@@ -1,9 +1,19 @@
 package myquote
 
-import "rsc.io/quote"
+import (
+	"fmt"
+
+ "rsc.io/quote"
+)
+func PrintAlleQuotes() {
+	fmt.Prinln(MittGlass())
+	fmt.Println(MittGo())
+	fmt.Println(MittHello())
+	fmt.Println(MittOpt())
+}
 
 func MittGlass() string {
-	return quote.Glass();
+	return MittGlass()
 }
 func MittGo() string {
         return quote.Go()
