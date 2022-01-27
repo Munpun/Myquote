@@ -24,5 +24,3 @@ func MittHello() string {
 func MittOpt() string {
         return quote.Opt()
 }
-
-
