@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/Munpun/Myquote/tree/master/Myquote.go"
+	"github.com/Munpun/Myquote/myquoteMappe"
 )
 
 func main() {
-	fmt.Println(Myquote.go.MittGlass())
+	fmt.Println(myquoteMappe.MittGlass())
 }

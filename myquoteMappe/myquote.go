@@ -1,16 +1,9 @@
-package myquote
+package myquoteMappe
 
-import (
+import
 	"fmt"
 
  "rsc.io/quote"
-)
-func PrintAlleQuotes() {
-	fmt.Prinln(MittGlass())
-	fmt.Println(MittGo())
-	fmt.Println(MittHello())
-	fmt.Println(MittOpt())
-}
 
 func MittGlass() string {
 	return MittGlass()
