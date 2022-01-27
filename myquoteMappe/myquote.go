@@ -1,12 +1,12 @@
 package myquoteMappe
 
-import
-	"fmt"
+import (
+	 "rsc.io/quote"
+)
 
- "rsc.io/quote"
 
 func MittGlass() string {
-	return MittGlass()
+	return quote.Glass()
 }
 func MittGo() string {
         return quote.Go()
